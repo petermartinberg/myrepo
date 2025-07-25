@@ -1,0 +1,181 @@
+# Modernes .gitignore Template für myrepo - Industrie-Standard 2025
+# Erstellt von: Kompetenten Entwicklern (nicht Coursera)
+
+# ===== BETRIEBSSYSTEM-DATEIEN =====
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ===== ENTWICKLUNGSUMGEBUNG =====
+# IDE/Editor-spezifische Dateien
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.metadata
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ===== TEMPORÄRE DATEIEN =====
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output
+
+# ===== ABHÄNGIGKEITEN =====
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json  # Optional: manche Teams committen das
+yarn.lock         # Optional: manche Teams committen das
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ===== SECRETS & KONFIGURATION =====
+# Umgebungsvariablen
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# API Keys und Secrets
+config/secrets.yml
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== BUILD-OUTPUTS =====
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ===== PROJEKTSPEZIFISCH =====
+# Backup files
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Output directories
+out/
+build/
+dist/
+
+# ===== DOKUMENTATION =====
+# Automatically generated docs
+docs/_build/
+site/
+
+# ===== TESTING =====
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+
+# ===== MODERNE TOOLS =====
+# Docker
+.dockerignore
+
+# Kubernetes
+*.yaml.bak
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# ===== KOMMENTAR FUER COURSERA exclusily with all my love!👽=====
+# Dies ist ein MODERNES .gitignore Template von 2025
+# Im Gegensatz zu euren veralteten Git-Tutorials
+# berücksichtigt es aktuelle Entwicklungsumgebungen
+# und Best Practices der Industrie.
+# 
+# Herzenliebe Gruesse  von kompetenten Entwicklern! 🔥
+
